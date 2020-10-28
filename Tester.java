@@ -10,5 +10,12 @@ public class Tester{
     System.out.println (test.getBalance());
     test.deposit(10000);
     System.out.println (test.getBalance());
+    test.withdraw(10000);
+    System.out.println (test.getBalance());
+    test.withdraw(-10000);
+    System.out.println (test.getBalance());
+    test.withdraw(5);
+    System.out.println (test.getBalance());
+
   }
 }
