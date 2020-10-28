@@ -6,5 +6,9 @@ public class Tester{
     System.out.println (test.getBalance());
     test.setPassword("testpword2");
     System.out.println (test.getPassword());
-
+    test.deposit(-1.0);
+    System.out.println (test.getBalance());
+    test.deposit(10000);
+    System.out.println (test.getBalance());
   }
+}

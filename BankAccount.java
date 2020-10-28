@@ -21,6 +21,19 @@ public class BankAccount{
       password=urpword;
       System.out.println ("your password has been set");
     }
+    public boolean deposit(double amount){
+      if
+      (amount>0){
+        balance+=amount;
+        return true;
+      }
+      else {
+        return false;
+      }
+
+
+
+    }
 
 
 }
