@@ -16,6 +16,6 @@ public class Tester{
     System.out.println (test.getBalance());
     test.withdraw(5);
     System.out.println (test.getBalance());
-
+    System.out.println (test);
   }
 }
